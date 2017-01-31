@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="cz">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Icon Font Preview</title>
+  <link rel="stylesheet" href="font_style">
+  <link rel="stylesheet" href="fg_style.css">
+</head>
+
+<body>
+
+  <script>
+    document.write('<div class="table-title">');
+    document.write('<h3>TCS Icon Font Preview</h3>');
+    document.write('</div>');
+    document.write('<table class="table-fill">');
+    document.write('<thead>');
+    document.write('<tr>');
+    document.write('<th class="text-left">Icon Symbol</th>');
+    document.write('<th class="text-left">Icon Symbol(2em)</th>');
+    document.write('<th class="text-left">Icon Symbol(1em)</th>');
+    document.write('<th class="text-left">Trida</th>');
+    document.write('<th class="text-left">Kod</th>');
+    document.write('<th class="text-left">Meno</th>');
+    document.write('<th class="text-left">Pouziti</th>');
+    document.write('<th class="text-left">Zdroj</th>');
+    document.write('</tr>');
+    document.write('</thead>');
+    document.write('<tbody class="table-hover">');
+
+    var iconFontArr;
+    for (var i = 0; i < iconFontArr.length; ++i) {
+      document.write('<tr>');
+      document.write('<td class="icon icon-large ' + iconFontArr[i][1].substr(1, iconFontArr[i][1].length) + '">' + '</td>');
+      document.write('<td class="icon icon-medium ' + iconFontArr[i][1].substr(1, iconFontArr[i][1].length) + '">' + '</td>');
+      document.write('<td class="icon icon-small ' + iconFontArr[i][1].substr(1, iconFontArr[i][1].length) + '">' + '</td>');
+      document.write('<td class="text-center">' + iconFontArr[i][1] + '</td>');
+      document.write('<td class="text-center">' + '\\' + iconFontArr[i][2] + '</td>');
+      document.write('<td class="text-center">' + iconFontArr[i][0] + '</td>');
+      document.write('<td class="text-center">' + iconFontArr[i][3] + '</td>');
+      document.write('<td class="text-center">' + '<a href = "' + iconFontArr[i][4] + '" target="_blank" >url</a>' + '</td>');
+      document.write('</tr>');
+    }
+
+    document.write('</tbody>');
+    document.write('</table>');
+  </script>
+
+</body>
+
+</html>

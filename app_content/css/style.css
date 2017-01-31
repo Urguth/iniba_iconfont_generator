@@ -1,0 +1,57 @@
+html,
+body {
+  font-family: Open sans;
+  font-size: 17px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container-fluid,
+.row {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.board-container {
+  padding: 20px;
+  padding-bottom: 65px;
+}
+
+.board {
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 65px;
+  background-color: #ccc;
+  border: 5px dashed #696969;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
+#drop-zone {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#upload-image {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+#font-name {
+  width: 100%;
+}
+
+#menu {
+  display: none;
+}

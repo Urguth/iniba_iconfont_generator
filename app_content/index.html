@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+  <meta charset="utf-8">
+  <title>Icon Font Generator</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+<div id="menu" class="container-fluid">
+ <div class="row board-container">
+   <input id="font-name" type="text" name="firstname" value="icon_font"/>
+    <div id="drop-zone" class="board">Presun SVG soubory</div> 
+    <input id="upload-image" type="file" />
+  </div>
+</div>
+  
+  <script>
+    var Main;
+    var interval = setInterval(function () {
+      if (document.readyState === 'complete') {
+        (function (arr, count) {
+          clearInterval(interval);
+
+          function loadscript() {
+            var script = document.createElement("script");
+            script.setAttribute("type", "text/javascript");
+            script.setAttribute("src", arr[count]);
+            script.onload = function () {
+              count++;
+              count === arr.length ? [Main = new main(), Main.init()] : loadscript();
+            }
+            document.getElementsByTagName("head")[0].appendChild(script);
+          }
+          loadscript();
+        })(['https://cdn.socket.io/socket.io-1.4.5.js', 'js/main.js', 'js/dragFile.js', 'js/events.js'], 0);
+      }
+    }, 100);
+  </script>
+</body>
+
+</html>
