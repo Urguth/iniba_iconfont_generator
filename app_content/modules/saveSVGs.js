@@ -2,7 +2,7 @@ var fs = require('fs');
 var webfontsGenerator = require('webfonts-generator');
 var parseSvg = require('./parse.js');
 
-var save = function (_arr, _svgPathArr, folder, _count, mkdirp, _name, app, client) {
+var save = function (_arr, _svgPathArr, folder, _count, mkdirp, _name, app, client, fullUrl) {
   var count = _count;
   var arr = _arr;
   var svgPathArr = _svgPathArr;
@@ -19,7 +19,7 @@ var save = function (_arr, _svgPathArr, folder, _count, mkdirp, _name, app, clie
         dest: 'app_content/output/' + folder
       }, function (error) {
         if (error) console.log('Fail!', error)
-        else parseSvg(fs, 'app_content/output/' + folder + '/' + name + ".svg", arr, mkdirp, folder, name, app, client);
+        else parseSvg(fs, 'app_content/output/' + folder + '/' + name + ".svg", arr, mkdirp, folder, name, app, client, fullUrl);
       })
     });
   }

@@ -2,7 +2,7 @@ var zipFolder = require('zip-folder');
 var rmdir = require('rmdir');
 var http = require('http')
 
-var parseSvg = function (fs, path, array, mkdirp, folder, fontName, app, client) {
+var parseSvg = function (fs, path, array, mkdirp, folder, fontName, app, client, fullUrl) {
   var previewArr = [];
   var html = '';
   var css = '';
@@ -12,7 +12,7 @@ var parseSvg = function (fs, path, array, mkdirp, folder, fontName, app, client)
       if (err) console.log(err);
       rmdir('app_content/output/' + folder, function (errDir) {
         if (errDir) return console.log(errDir);
-        var file = 'http://localhost:3000/output/' + folder + '_iconfont' + '.zip';
+        var file = fullUrl + '/output/' + folder + '_iconfont' + '.zip';
         client.emit('news', {
           link: file
         });
