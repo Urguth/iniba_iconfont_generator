@@ -1,5 +1,5 @@
 # iniba_iconfont_generator
-Aumatizovany generator SVG to Icon font<br><br>
+Aumatizovany generator SVG to Icon font<br><br><br><br>
 
 ##Podpora a vlastnosti:
 Podporovane font formaty: WOFF, EOT, TTF a SVG.<br>
