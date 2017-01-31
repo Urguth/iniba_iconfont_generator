@@ -12,4 +12,4 @@ Podpora prohlizecu: IE8+<br><br>
 
 ###<font color="red">!!!Dulezite pro korektni funkcnost prosim pouzivat Chrome!!!</font><br><br>
 
-Generovani fontu vytvoreno pomoci <a href="https://github.com/sunflowerdeath/webfonts-generator"><b>webfonts-generator</b></a> od sunflowerdeath.
+Generovani fontu vytvoreno pomoci modulu <a href="https://github.com/sunflowerdeath/webfonts-generator"><b>webfonts-generator</b></a> od sunflowerdeath.
