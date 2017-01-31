@@ -10,7 +10,7 @@ Automatizovany generator SVG to Icon font<br><br>
 Podporovane font formaty: WOFF, EOT, TTF a SVG<br>
 Podpora prohlizecu: IE8+<br><br>
 
-##Nahled:
+##Link pro nahled:
 http://46.101.19.217:3000/<br><br><br>
 
 ###<font color="red">!!!Dulezite pro korektni funkcnost prosim pouzivat Chrome!!!</font><br><br>
