@@ -3,7 +3,7 @@ Aumatizovany generator SVG to Icon font<br><br>
 
 ##Postup:
 - Skontrolovat v horni casti tab s textem a napsat nazev fontu.<br>
-- Vlozit do oznacene plochy jeden nebo vice SVG. Po vlozeni se spusti generovani a na konci se ulozi na disk vystup ve formatu zip.<br>
+- Vlozit do oznacene plochy jeden nebo vice SVG. Po vlozeni se spusti generovani a ke konci se na disk ulozi vystup ve formatu zip.<br>
 - Zip soubor obsahuje taky folder "_preview_" pro iconfont nahled.<br><br>
 
 ##Podpora a vlastnosti:
