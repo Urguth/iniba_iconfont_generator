@@ -1,5 +1,5 @@
 # iniba_iconfont_generator
-Aumatizovany generator SVG to Icon font<br><br>
+Automatizovany generator SVG to Icon font<br><br>
 
 ##Postup:
 - Skontrolovat v horni casti tab s textem a napsat nazev fontu.<br>
@@ -9,5 +9,7 @@ Aumatizovany generator SVG to Icon font<br><br>
 ##Podpora a vlastnosti:
 Podporovane font formaty: WOFF, EOT, TTF a SVG<br>
 Podpora prohlizecu: IE8+<br><br>
+
+# !!!Dulezite pro korektni funkcnost prosim pouzivat Chrome!!!<br><br>
 
 Generovani fontu vytvoreno pomoci <a href="https://github.com/sunflowerdeath/webfonts-generator"><b>webfonts-generator</b></a> od sunflowerdeath.
