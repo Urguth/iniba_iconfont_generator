@@ -4,7 +4,8 @@ Automatizovany generator SVG to Icon font<br><br>
 ##Postup:
 - Skontrolovat v horni casti tab s textem a napsat nazev fontu.<br>
 - Vlozit do oznacene plochy jeden nebo vice SVG. Po vlozeni se spusti generovani a ke konci se na disk ulozi vystup ve formatu zip.<br>
-- Zip soubor obsahuje taky folder "_preview_" pro iconfont nahled.<br><br>
+- Zip soubor obsahuje taky folder "_preview_" pro iconfont nahled.<br>
+- Dulzity je muj_font.css staci jenom nahrat do stranky spolu s .eot, .svg, .ttf, .woff soubory. V muj_font.css sou uz preddefinovane icony v samostatnych tridach takze staci volat jenom nazev tridy pro zobrazeni icony.
 
 ##Podpora a vlastnosti:
 Podporovane font formaty: WOFF, EOT, TTF a SVG<br>
