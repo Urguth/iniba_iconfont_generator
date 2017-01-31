@@ -5,4 +5,4 @@ Aumatizovany generator SVG to Icon font<br><br>
 Podporovane font formaty: WOFF, EOT, TTF a SVG.<br>
 Podpora prohlizecu: IE8+.<br><br>
 
-Generovani fontu vytvoreno pomoci webfonts-generator od sunflowerdeath.
+Generovani fontu vytvoreno pomoci <b>webfonts-generator</b> od sunflowerdeath.
